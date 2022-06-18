@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
+    <title>vutienlinhcalm</title>
+</head>
+<body>
+    <div class="contain">
+        <div class="imgBox">
+            <img src="/src/image/Linh.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="details">
+                <h2>Vũ Tiến Linh <br> <span>Front-End Intership</span></h2>
+                <div class="sosialmedia">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-medium"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-reddit"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+            </div>
+            <button id="btn">click vào đây</button>
+            <div id="thay">
+               <!-- <ul><li></li><li></li></ul>-->
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        document.getElementById("btn").onclick = function(){
+           
+            var htmlon = document.getElementById("thay");
+            htmlon.innerHTML = htmlon.innerHTML + "<div> "
+                + "<ul>"
+                + " <li> hi</li>"
+                + "<li>li</li>" 
+                + "</ul>"   
+                + " </div>";
+           
+        };
+    </script>
+</body>
+</html>
